@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box; }
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 4; }
+
+header #nav-container {
+  padding: 0 100px 0 30px;
+  width: 100%;
+  height: 90px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(189, 189, 189, 0.3); }
+
+header #nav-container #nav-logo {
+  display: block;
+  margin: auto 0; }
+
+header #nav-container #nav-logo img {
+  height: 80px; }
+
+header #nav-container #nav-wrapper {
+  margin: auto 0 auto auto; }
+
+header #nav-container #nav-wrapper nav ul {
+  list-style: none;
+  line-height: 1; }
+
+header #nav-container #nav-wrapper nav ul li {
+  display: inline-block; }
+
+header #nav-container #nav-wrapper nav ul li:not(:last-child) {
+  margin-right: 50px; }
+
+header #nav-container #nav-wrapper nav ul li#blog-link {
+  background-size: 85%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease; }
+
+header #nav-container #nav-wrapper nav ul li#blog-link:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
+
+header #nav-container #nav-wrapper nav ul li a {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px; }
+
+header #nav-container #nav-wrapper nav ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 3px;
+  width: 0;
+  -webkit-transition: width 0s ease, background .5s ease;
+  transition: width 0s ease, background .5s ease; }
+
+header #nav-container #nav-wrapper nav ul li a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  height: 3px;
+  width: 0;
+  background: #6e993b;
+  -webkit-transition: width .5s ease;
+  transition: width .5s ease; }
+
+header #nav-container #nav-wrapper nav ul li a:hover:before,
+header #nav-container #nav-wrapper nav ul li a.active:before {
+  width: 100%;
+  background: #6e993b;
+  -webkit-transition: width .5s ease;
+  transition: width .5s ease; }
+
+header #nav-container #nav-wrapper nav ul li a:hover:after,
+header #nav-container #nav-wrapper nav ul li a.active:after {
+  width: 100%;
+  background: transparent;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease; }
+
+header #nav-container.fixed {
+  box-shadow: 5px 8.66px 30px 0 rgba(31, 35, 37, 0.078);
+  background-color: white;
+  position: fixed;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  top: -90px;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+header #nav-container.fixed #nav-wrapper nav a {
+  color: #000;
+  font-weight: 400; }
+
+#content {
+  overflow: hidden; }
+
+#content #section-video {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  height: 100vh;
+  background-image: url("https://clikaki.com.br/wp-content/uploads/2014/05/drakar.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+#content #section-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+@media (min-aspect-ratio: 16 / 9) {
+  #content #section-video video {
+    width: 100%;
+    height: auto; } }
+
+@media (max-aspect-ratio: 16 / 9) {
+  #content #section-video video {
+    width: auto;
+    height: 100%; } }
+
+#content #section-wipes {
+  width: 100%;
+  height: 100%; }
+
+#content #section-wipes .panel .panel-inner, #content #section-wipes footer .panel-inner {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: 90px;
+  margin-left: 20%;
+  margin-right: 70px; }
+
+#content #section-wipes .panel .panel-inner h2, #content #section-wipes footer .panel-inner h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 150px;
+  font-family: 'Lato', sans-serif; }
+
+#content #section-wipes .panel,
+#content #section-wipes footer {
+  height: 100vh;
+  position: relative;
+  margin-bottom: 400px; }
+
+#content footer {
+  background-color: #CDCDCD; }

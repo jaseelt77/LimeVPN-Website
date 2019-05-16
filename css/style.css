@@ -1,0 +1,1889 @@
+body {
+  background: #fff;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+img, svg {
+  vertical-align: middle; }
+
+#header {
+  background-image: url(../images/home_image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+ul li {
+  list-style: none; }
+
+.navbar-brand {
+  width: 200px;
+  max-width: 100%; }
+
+.navbar-light .navbar-toggler {
+  color: none;
+  border-color: none; }
+
+.navbar-toggler {
+  border: none;
+  outline: none !important; }
+
+.top-mini-nav {
+  background-color: #2b2e33;
+  padding: 5px 0 4px 0; }
+
+.top-mini-nav a, .public-ip {
+  color: #ddd0dd; }
+
+.ic-icon-location:before {
+  content: '\f3c5';
+  color: #d0d6dd; }
+
+.top-mini-nav span {
+  margin-right: 10px; }
+
+.ic-icon-arrows-ccw:before {
+  content: '\f3c5';
+  color: #d0d6dd; }
+
+.secondary_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* -webkit-box-pack: end; */
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 2px; }
+
+.secondary_menu li {
+  margin-left: 20px; }
+
+.secondary_menu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none; }
+
+.secondary_menu a:hover {
+  color: #04cba6; }
+
+.public_ip {
+  display: flex; }
+
+.public_ip a:hover {
+  text-decoration: none !important;
+  color: #04cba6; }
+
+.secondary_menu i {
+  margin: 0 5px; }
+
+.lime_vpn_home {
+  padding-top: 70px;
+  padding-bottom: 95px;
+  max-height: 100%; }
+
+.home__desc li {
+  padding: 5px;
+  color: #fff;
+  position: relative;
+  left: -55px; }
+
+.home__desc li img {
+  margin: 8px 10px;
+  margin-top: 7px; }
+
+.top-mini-nav a, .public-ip {
+  color: #d0d6dd;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14em;
+  vertical-align: top;
+  font-display: swap; }
+
+.lime_vpn_hover:hover {
+  color: red; }
+
+.continue-box .top-nav-contant--fixed {
+  top: 0;
+  width: 100%;
+  transition: ease-in-out .15s;
+  background-image: none; }
+
+.navbar-lvpn-default {
+  padding: 34px 0;
+  transition: all ease-in-out .15s; }
+
+#header .lime_vpn_home .btn {
+  margin-top: 20px; }
+
+.home_banner {
+  width: 100%; }
+
+.home_banner h1 {
+  color: #fff;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  padding-bottom: 15px; }
+
+.home_banner p {
+  font-size: 22px;
+  color: #fff;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+
+.home_sports_banner {
+  padding-top: 65px; }
+
+.nav-item form {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+  margin-right: -21px; }
+
+.nav-item input {
+  width: 220px;
+  border: 2px solid #fff;
+  background: #000000;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  margin: 6px 9px; }
+
+.nav-item [type="submit"] {
+  border-radius: none !important; }
+
+input[type="text"] {
+  height: 30px;
+  padding-right: 50px;
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1.8px solid #fff;
+  background-color: rgba(17, 17, 17, 0.5); }
+
+input[type="submit"] {
+  margin-left: -101px;
+  height: 28px;
+  width: 91px;
+  background: #04cba6;
+  color: white;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: none;
+  border-right: 0;
+  border-left: 0;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 0;
+  border-top: 0; }
+
+.btn.btn-secondary:hover, .btn.btn-secondary:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff  !important;
+  font-size: 17px !important;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  transition: .3s;
+  padding: 10px 14px 0; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #fff;
+  color: #f6f6f6; }
+
+.our_features {
+  padding-top: 30px;
+  margin-left: 51px; }
+
+.our_features img {
+  padding: 0 12px;
+  margin: 0 auto; }
+
+.start_trial_images {
+  padding-top: 25px; }
+
+.btn_start_trial {
+  padding: 13px 60px;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  background-color: rgba(17, 17, 17, 0.5);
+  color: #fff;
+  font-size: 22px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+
+.client_logo {
+  padding: 70px 0; }
+
+.client_logo__list {
+  padding-bottom: 30px; }
+
+.client_logo_list {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.client_logo_list img {
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+.client_logo_list__item {
+  width: 17%;
+  text-align: center; }
+
+.client-sections {
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+.client-images img {
+  margin: 0 15px;
+  width: 177px;
+  max-width: 100%; }
+
+.client-images_sec {
+  margin-top: 50px; }
+
+.client-images_sec img {
+  margin: 0 23px;
+  align-items: center; }
+
+.uk_section {
+  padding: 50px;
+  background: #edf4f9; }
+
+.uk_title {
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px; }
+
+.uk_sub_title {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  color: #1a1a1a;
+  font-size: 22px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500; }
+
+.uk_sec_images {
+  width: 100%;
+  padding-top: 13px; }
+
+.uk_descriptions {
+  width: 100%; }
+
+.uk_descriptions h4 {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.uk_title_right {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  text-align: right;
+  width: 500px;
+  max-width: 100%; }
+
+.uk_descriptions p {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 540px;
+  max-width: 100%; }
+
+.uk_description_def {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 510px;
+  max-width: 100%;
+  text-align: right;
+  /* margin: 0 0 0 0; */ }
+
+.buy_vpn_today {
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+.buy_vpn_today h1 {
+  font-size: 42px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.buy_sub_title {
+  color: #1a1a1a;
+  font-size: 22px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 25px; }
+
+.lime_vpn_section {
+  background: #edf4f9;
+  padding: 50px; }
+
+.lime_vpn_section_title {
+  font-size: 42px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.lime_vpn_part1 {
+  top: 48px;
+  position: relative; }
+
+.lime_vpn_part1 h4 {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.lime_vpn_part1_desc {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 483px;
+  max-width: 100%; }
+
+.lime_vpn_part1 h4 {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.lime_vpn_part1 .title {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  text-align: right; }
+
+.lime_vpn_part_desc {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 450px;
+  max-width: 100%;
+  text-align: right;
+  padding-top: 25px;
+  position: absolute;
+  right: 0; }
+
+.lime_vpn_part_description {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 100%;
+  width: 487px; }
+
+.sports__access {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 100%; }
+
+.sports_sections {
+  padding-top: 60px; }
+
+.sports_defnition {
+  width: 351px;
+  max-width: 100%;
+  width: 351px;
+  max-width: 100%;
+  padding-bottom: 65px; }
+
+.sports_defnition h2 {
+  font-size: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.sports_definition_desc {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 100%;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 487px;
+  text-align: left; }
+
+.sports_defnition .btn-vpn {
+  padding: 10px 30px;
+  outline: none !important;
+  box-shadow: navajowhite;
+  border: none !important;
+  width: 178px;
+  max-width: 100%;
+  color: #fff;
+  background: #04cba6;
+  border-radius: 12px;
+  text-align: left;
+  left: 13px;
+  position: absolute; }
+
+.btn-vpn:hover {
+  color: #fff; }
+
+.network_locations {
+  background: #edf4f9;
+  /* padding: 50px; */
+  padding-top: 50px;
+  padding-bottom: 80px !important; }
+
+.network_locations p {
+  padding-bottom: 25px;
+  /* padding-top: 25px; */
+  color: #1a1a1a;
+  font-size: 22px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%; }
+
+.network_image {
+  padding-top: 50px; }
+
+.network_locations .lime_vpn_white {
+  padding-top: 25px;
+  color: #828282;
+  font-size: 22px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300; }
+
+.country_flags img {
+  margin-left: 31px; }
+
+.country_name {
+  color: #828282;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px; }
+
+.protect__devices {
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+.protect_desc {
+  padding-bottom: 25px;
+  color: #1a1a1a;
+  font-size: 22px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500; }
+
+.protect__devices {
+  width: 100%;
+  padding-bottom: 60px;
+  padding-top: 60px; }
+
+.protect__devices img {
+  padding-top: 50px;
+  max-width: 100%; }
+
+.lime_vpn_section .buttons_section {
+  padding-top: 50px;
+  text-align: center; }
+
+.lime_vpn_section .btn_vpn {
+  padding: 10px 30px;
+  outline: none !important;
+  box-shadow: navajowhite;
+  border: none !important;
+  width: 178px;
+  max-width: 100%;
+  color: #fff;
+  background: #04cba6;
+  border-radius: 12px;
+  text-align: center;
+  left: 13px; }
+
+.apps_available {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.apps_available span {
+  position: relative;
+  top: 26px;
+  font-size: 22px;
+  font-weight: 500;
+  width: 100%; }
+
+.apps_available img {
+  margin: 0 25px;
+  width: 39px;
+  max-width: 100%; }
+
+.uk_vpn_servers {
+  background: #edf4f9;
+  /* padding: 50px; */
+  padding-top: 50px;
+  padding-bottom: 80px !important; }
+
+.lime_vpn_uk {
+  width: 100%; }
+
+.lime_vpn_uk_2 {
+  background: #fff;
+  padding: 28px;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 7px; }
+
+.lime_vpn_uk {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid #edf4f9;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  align-items: center; }
+
+.lime_vpn_uk:hover {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  /*border: 2px solid #e0e0e0;*/
+  border: 2px solid #F8DBB4;
+  /*-webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;*/ }
+
+.vpn_uk_contents {
+  margin: 0 18px; }
+
+.london {
+  font-size: 21px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.lime_vpn_uk p {
+  color: #828282;
+  font-family: brandon-grotesque, sans-serif; }
+
+.more_servers {
+  line-height: 1.7;
+  padding-top: 4px; }
+
+.lime_vpn_section .btn-vpn {
+  padding: 10px 30px;
+  outline: none !important;
+  box-shadow: navajowhite;
+  border: none !important;
+  width: 178px;
+  max-width: 100%;
+  color: #fff;
+  background: #04cba6;
+  border-radius: 12px;
+  text-align: center;
+  left: 13px;
+  position: absolute; }
+
+.secure_sector .btn_spaces {
+  text-align: right; }
+
+.lime_vpn_uk .vpb_desc {
+  right: -22px;
+  margin-top: -27px; }
+
+.unblock_british {
+  padding: 50px; }
+
+.unblock_defnition h2 {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.unblock_desc {
+  width: 300px;
+  max-width: 100%;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 100%;
+  padding-top: 25px;
+  width: 487px; }
+
+.unblock_figure {
+  padding-top: 60px; }
+
+.our_clients_lime_vpn {
+  padding: 50px;
+  padding-bottom: 100px;
+  background: #edf4f9;
+  padding-top: 50xp;
+  padding-top: 50px; }
+
+.nav-pills {
+  position: relative;
+  border: 2px solid #edf4f9;
+  width: 556px;
+  max-width: 100%;
+  border-radius: 18px;
+  margin: 0 auto 50px auto; }
+
+.nav-pills .nav-link {
+  padding: 13px 50px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  border-radius: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  text-align: center; }
+
+.tab-content {
+  padding-top: 55px; }
+
+.nav-pills .nav-link.active, .nav-pills .show .nav-link {
+  background: #edf4f9;
+  border-radius: 16px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.prize_plans {
+  width: 100%;
+  border-radius: 10px;
+  background: #edf4f9;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08); }
+
+.prize_plans .title {
+  font-size: 28px;
+  padding-bottom: 35px;
+  padding-top: 45px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.prize_plans .title_pro {
+  color: #04cba6;
+  font-size: 28px;
+  padding-bottom: 35px;
+  padding-top: 45px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.prize_plans .desc {
+  color: #04cba6;
+  font-size: 26px;
+  font-weight: 500;
+  padding-top: 18px; }
+
+.billed_monthly {
+  text-align: center;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px; }
+
+.price_partners {
+  padding-top: 65px;
+  padding-bottom: 40px;
+  margin: 0 45px;
+  text-align: center; }
+
+.price_partners img {
+  margin: 0 25px; }
+
+.prize_definitions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 0 15px;
+  padding-bottom: 51px;
+  padding-top: 26px; }
+
+.prize_definitions li {
+  text-align: left;
+  color: #828282;
+  font-size: 16px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+
+.prize_definitions li img {
+  margin: 0 5px; }
+
+.prize_plans
+.sign_up_prize {
+  background: #184065;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 26px;
+  width: 100%;
+  color: #fff;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  text-decoration: none;
+  padding-bottom: 26px;
+  text-decoration: none !important;
+  border: none;
+  outline: none; }
+
+.prize_plans .sign_up_prize:hover, .prize_plans .sign_up_prize_pro:hover {
+  background-image: linear-gradient(#184065 31%, #116f7b 53%, #01e1b0 100%, #01e1b0 100%, #01e1b0 100%); }
+
+.prize_plans .sign_up_prize_pro {
+  text-decoration: none;
+  background: #04cba6;
+  font-size: 23px;
+  padding-top: 26px;
+  width: 100%;
+  color: #fff;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  text-decoration: none;
+  padding-bottom: 26px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+.sign_up_prize_pro a, .sign_up_prize a {
+  text-decoration: none;
+  color: #fff; }
+
+.our_clients_lime_vpn .client_desc {
+  color: #828282;
+  font-size: 22px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 25px; }
+
+.secure_vpn_section {
+  padding: 50px; }
+
+.autoplay .testimonials_clients {
+  padding: 10px;
+  border: none !important;
+  background: #fff;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  outline: none !important; }
+
+.testimonials_clients::before {
+  margin: 10px;
+  content: url("../images/quation1.png"); }
+
+.testimonials_clients::after {
+  position: relative;
+  right: 0;
+  float: right;
+  margin-top: -27px;
+  content: url("../images/quation2.png"); }
+
+.testimonials_clients .testimonial_title {
+  color: #000000 !important;
+  font-weight: 500 !important;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal; }
+
+.btn-next {
+  position: absolute;
+  right: -48px;
+  margin-top: -158px;
+  background: #edf4f9;
+  border: none !important;
+  outline: none !important; }
+
+.btn-previous {
+  position: absolute;
+  left: -48px;
+  margin-top: 141px;
+  background: #edf4f9;
+  border: none !important;
+  outline: none !important; }
+
+.autoplay .testimonials_clients p {
+  margin: 15px;
+  color: #828282;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px; }
+
+.autoplay .slick_vpn_slider {
+  margin: 0 25px; }
+
+.testimonials_clients .testimonial_title {
+  color: #000000; }
+
+.autoplay .testimonials_clients .small {
+  margin-left: 25px !important; }
+
+.secure_defenitions span {
+  margin-right: 30px; }
+
+.secure_defenitions {
+  margin-left: 65px; }
+
+.secure_image {
+  padding-bottom: 65px;
+  margin-left: 65px; }
+
+.secure_defenitions h5 {
+  font-size: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.secure_defenitions p {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 100%;
+  padding-top: 25px;
+  width: 423px;
+  max-width: 100%;
+  padding-bottom: 25px; }
+
+.secure_sector h2 {
+  font-size: 42px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  text-align: right; }
+
+.secure_sector p {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 100%;
+  padding-top: 25px;
+  width: 417px;
+  max-width: 100%;
+  padding-bottom: 25px;
+  text-align: right;
+  float: right; }
+
+.secure_imgages_1 img {
+  padding-top: 35px;
+  margin: 0 7px; }
+
+.secure_sector .btn-vpn {
+  padding: 10px 30px;
+  outline: none !important;
+  box-shadow: navajowhite;
+  border: none !important;
+  width: 178px;
+  max-width: 100%;
+  color: #fff;
+  background: #04cba6;
+  border-radius: 12px;
+  text-align: center;
+  left: 13px; }
+
+.secure_images_sector img {
+  margin-left: 47px !important;
+  margin-left: 47px !important;
+  position: relative;
+  top: 95px; }
+
+.sign_up_lime_vpn {
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+.one_team h2 {
+  font-size: 32px;
+  color: #04cba6; }
+
+.sign_up_lime_vpn {
+  background: #edf4f9;
+  /* padding: 50px; */
+  padding-top: 50px; }
+
+.sign_up_lime_vpn p {
+  text-align: center;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 30px; }
+
+.price_discounted .btn-vpn {
+  padding: 10px 30px;
+  outline: none !important;
+  box-shadow: navajowhite;
+  border: none !important;
+  width: 178px;
+  max-width: 100%;
+  color: #fff;
+  background: #04cba6;
+  border-radius: 12px;
+  text-align: center;
+  left: 13px; }
+
+.prize_plans .dollars, .small {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #184065; }
+
+.prize_plans .dollars_pro, small {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #04cba6; }
+
+.price_discounted sup {
+  color: #184065; }
+
+.sign_up_lime_vpn .price_discounted hr {
+  left: 0;
+  /* right: 0; */
+  margin: auto;
+  top: -17px; }
+
+.sign_up_lime_vpn .price_discounted hr {
+  width: 85px;
+  transform: rotate(12deg);
+  position: relative;
+  top: -11px;
+  margin-bottom: 0;
+  height: 1px;
+  background-color: #184065;
+  border: none; }
+
+.price_discounted strong {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 17px;
+  color: #184065; }
+
+.price_discounted .billed_vpn {
+  padding-bottom: 25px;
+  padding-top: 25px; }
+
+.price_discounted hr {
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -17px; }
+
+.price_discounted .prices {
+  font-size: 30px;
+  color: #04cba6; }
+
+.prices sup {
+  color: #04cba6;
+  font-weight: 700; }
+
+.price_discounted .prices strong {
+  font-size: 30px;
+  color: #04cba6; }
+
+.price_discounted .click_to_order {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px; }
+
+.footer_section {
+  width: 100%;
+  padding-top: 50px;
+  background: #2b2e33; }
+
+.footer_boxes {
+  width: 100%;
+  text-align: left; }
+
+.footer_boxes h5 {
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+
+.footer_boxes p {
+  text-align: left;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px; }
+
+.footer_boxes p a {
+  color: #a5abb2;
+  font-size: 16px;
+  text-decoration: none; }
+
+.img_sections_right {
+  margin: 0 25px; }
+
+.img_sections_right img {
+  padding: 0 20px; }
+
+.footer_last_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.footer_last_links p {
+  position: relative;
+  padding-top: 22px;
+  color: #a5abb2;
+  font-size: 13px;
+  margin: 0 11px; }
+
+.footer_boxes p a:hover {
+  color: #04cba6; }
+
+.copyright p {
+  text-align: left;
+  color: #a5abb2 !important;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 400; }
+
+.img-icons {
+  padding-top: 35px;
+  position: relative; }
+
+.show_mobile {
+  display: none; }
+
+.navbar_close {
+  display: none; }
+
+.footer_social_icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -39px;
+  padding-bottom: 20px; }
+
+.footer_social_icons a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: none;
+  color: #a5abb2;
+  margin: 0 6px;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+  font-size: 18px;
+  border: 1px solid #a5abb2;
+  text-decoration: none; }
+
+.footer_social_icons a:hover {
+  background: #fff; }
+
+.footer_social_icons a:hover > i {
+  transform: scale(1.6) rotate(25deg); }
+
+.footer_social_icons i {
+  transition: 0.4s all; }
+
+.mobile_header, .mobile_VPN {
+  display: none; }
+
+.mobiles_dedicated, .vpn_dedicated_server, .current_vpn, .current_vpn, .affordable_vpn, .express_vpn, .footer, .discover {
+  display: none; }
+
+#china_header {
+  background-image: url(../images/afiliate/china_header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.china_definition {
+  margin: auto; }
+
+.unblock_voip {
+  position: relative;
+  top: 80px; }
+
+.china_definition .btn-vpn {
+  text-align: center;
+  left: 110px;
+  bottom: 40px; }
+
+.lime_vpn_section .buttons_section {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px; }
+
+.dodge_china {
+  padding-top: 108px; }
+
+#canada_header {
+  background-image: url(../images/afiliate/canada.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.canadians_sections {
+  background: #edf4f9;
+  /* padding: 50px; */
+  padding-top: 50px;
+  padding-bottom: 80px !important; }
+
+.canada__box {
+  width: 40px;
+  height: 40px;
+  color: red;
+  display: block; }
+
+.canada_ul .canada_li {
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 16px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.canada_ul .canada_li img {
+  margin-right: 25px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08); }
+
+.canada-img {
+  padding-bottom: 35px;
+  padding-top: 35px; }
+
+.canadian_legislation {
+  padding-top: 20px; }
+
+.we__asked__canadians .title {
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 36px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600; }
+
+.we__asked__canadians p {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px; }
+
+.bill_c {
+  width: 522px;
+  text-align: left;
+  display: block;
+  /* width: 100%; */
+  max-width: 100%; }
+
+.bill_c h4 {
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 36px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600; }
+
+.bill_c p {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px; }
+
+.bill_c__p {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 563px;
+  max-width: 100%; }
+
+.canadians_sections .btn_canada {
+  padding: 10px 30px;
+  outline: none !important;
+  box-shadow: navajowhite;
+  border: none !important;
+  width: 178px;
+  max-width: 100%;
+  color: #fff;
+  background: #04cba6;
+  border-radius: 12px;
+  text-align: center;
+  left: 13px; }
+
+.lime_vpn_canada {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  /* width: 80%; */
+  margin-top: 20px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 7px; }
+
+.lime_vpn_canada .london {
+  font-size: 21px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700; }
+
+.lime_vpn_canada p {
+  color: #828282;
+  font-family: brandon-grotesque, sans-serif; }
+
+.more_servers_canada {
+  line-height: 26px;
+  padding-top: 4px; }
+
+/*australia*/
+#australia_header {
+  background-image: url(../images/afiliate/australia_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.unblock_defnition h6 {
+  font-size: 22px;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  color: #184065; }
+
+.aus_networks {
+  padding-top: 52px; }
+
+.public_data {
+  padding-bottom: 35px; }
+
+.aus_network_freedom {
+  padding-top: 30px;
+  padding-bottom: 10px; }
+
+.lime_vpn_hide {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 506px;
+  max-width: 100%;
+  line-height: 32px; }
+
+.meta_data {
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 100%; }
+
+.china_definition i {
+  font-size: 20px;
+  position: relative;
+  /* margin-top: -16px; */
+  top: 2px;
+  left: -7px; }
+
+.network_title {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  width: 480px;
+  max-width: 100%;
+  margin: auto; }
+
+.network_title_left {
+  font-size: 25px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  color: #184065;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  width: 480px;
+  max-width: 100%; }
+
+.aus_network_total img {
+  padding-top: 29px; }
+
+.australia_unblock {
+  padding-top: 30px;
+  max-width: 100%;
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 100%;
+  padding-top: 25px;
+  width: 487px; }
+
+.unblock_figures {
+  padding-top: 11px; }
+
+.australia__partners {
+  padding-top: 65px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%; }
+
+.australia__partners img {
+  margin: 0 18px; }
+
+#netflix_header {
+  background-image: url(../images/netflix.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media only screen and (max-width: 414px) {
+  .client-sections, .uk_section, .buy_vpn_today, .lime_vpn_section, .sports__access, .network_locations, .protect__devices, .uk_vpn_servers,
+  .unblock_british, .our_clients_lime_vpn, .secure_vpn_section, .sign_up_lime_vpn, .footer_section, .canadians_sections, .top-mini-nav, .client_logo {
+    display: none; }
+  .show_mobile {
+    display: block; }
+  .show_desctop {
+    display: none; }
+  .navbar span {
+    margin-top: 8px; }
+  .mobile_header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #040b38; }
+  .navbar-lvpn-default {
+    margin: 0 10px;
+    padding: 5px 0;
+    transition: all ease-in-out .15s; }
+  .navbar-nav {
+    margin-top: 5px; }
+  .navbar-light .navbar-nav .nav-link {
+    color: #000000 !important;
+    font-size: 15px !important;
+    margin: 4px;
+    border-bottom: 1px solid #f2f4f6 !important; }
+  .navbar-light .navbar-nav .nav_getstarted {
+    width: 100%;
+    background: #04cba6 !important;
+    text-align: center;
+    color: #fff !important;
+    text-align: center;
+    height: 45px;
+    line-height: 27px;
+    border-radius: 7px;
+    font-size: 18px; }
+  .mobile_header, .mobile_VPN, .mobiles_dedicated, .vpn_dedicated_server, .affordable_vpn, .express_vpn {
+    display: block;
+    background: #f2f4f6; }
+  .mobile_vpn_banner {
+    padding: 10px; }
+  .mobile_title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    color: #333333;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 600; }
+  .get_mobile_started {
+    background: #04cba6;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none; }
+  .credit_decs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #828282;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .freshared_title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    color: #333333; }
+  .header_sections, .client-sections {
+    display: none; }
+  .mobiles_dedicated, .vpn_dedicated_server {
+    background: #f2f4f6; }
+  .mobile_dedicated {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .current_vpn {
+    background: #fff;
+    display: block;
+    padding-top: 50px; }
+  .express_vpn {
+    display: block;
+    background: #fff; }
+  .multiple_security {
+    color: #1a1a1a;
+    font-size: 15px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 20px; }
+  .mobile_dedicated_desc {
+    color: #1a1a1a;
+    font-size: 11px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .vpn_dedicated_desc {
+    color: #1a1a1a;
+    font-size: 12px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .dedications_desc {
+    padding-top: 25px;
+    color: #1a1a1a;
+    font-size: 17px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 700; }
+  .dedicate_desc {
+    color: #1a1a1a;
+    font-size: 12px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .affordable_vpn_desc {
+    color: #1a1a1a;
+    font-size: 12px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .nav-tabs {
+    border-bottom: none;
+    background: #fff; }
+  .nav-pills {
+    margin-left: 50px; }
+  .nav-tabs .nav-link {
+    color: #828282;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-weight: 500;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    margin-left: 22px; }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #04cba6;
+    border: none !important;
+    font-weight: 500;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    outline: none;
+    box-shadow: none; }
+  .tab_selected_content {
+    background: #f2f4f6; }
+  .discover_title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    color: #333333;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .tabs_mob {
+    position: relative;
+    /* padding-top: 12px; */
+    top: 32px;
+    height: 183px;
+    max-width: 100%; }
+  .tab_selected_right {
+    width: 50%;
+    max-width: 100%;
+    position: relative;
+    background: #fff;
+    float: right;
+    margin-top: -204px;
+    margin-right: 63px; }
+  .tab_selected_right h3 {
+    font-weight: 200;
+    color: #828282;
+    text-align: center;
+    padding-top: 15px; }
+  .tab_selected_right p {
+    text-align: center; }
+  .tab_selected_right .lime_pro {
+    color: #04cba6;
+    text-align: center; }
+  .tab_selected_right small {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 100; }
+  .tab_selected_right .dollars {
+    color: #04cba6; }
+  .mobstarted a {
+    text-decoration: none;
+    color: #fff; }
+  .mobstarted {
+    background: #04cba6;
+    padding: 14px 0;
+    color: #fff;
+    border-radius: 5px; }
+  .mob_getstarted {
+    text-align: center;
+    background: #04cba6; }
+  .discover {
+    display: block;
+    padding: 10px;
+    padding-top: 135px; }
+  .discover p {
+    color: #617a90;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 12px; }
+  .connections {
+    padding-top: 50px; }
+  .express_vpn {
+    background: #04cba6;
+    display: block;
+    padding-bottom: 25px; }
+  .express_vpn .title {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 600; }
+  .express_vpn .description {
+    color: #fff;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .get_started_mobile {
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .get_started_mobile .form-control {
+    box-shadow: none;
+    border: 1px solid #000000;
+    outline: none;
+    z-index: 1; }
+  .get_started_mobile .btn-default {
+    background: #000000;
+    color: #fff;
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 38px; }
+  .footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: #000000;
+    display: block; }
+  .footer a {
+    text-decoration: none;
+    color: #04cba6; }
+  .mobile_footer_icons {
+    padding-top: 25px; }
+  .mobile_footer_icons p {
+    padding-top: 20px;
+    color: #a5abb2 !important; }
+  .footer_menus {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px; }
+  .navbar-collapse {
+    background: #fff; } }
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .top-mini-nav {
+    display: none; }
+  .show_mobile {
+    display: block; }
+  .show_desctop {
+    display: none; }
+  .lime_vpn_section_title {
+    font-size: 25px; }
+  .nav-pills {
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .btn_start_trial {
+    font-size: 22px;
+    padding: 3px 16px; }
+  .prize_plans img {
+    margin: 0 50px;
+    margin-top: 0; }
+  .nav-item form {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: -9px; }
+  .nav-pills .nav-link {
+    padding: 16px 29px; }
+  .lime_vpn_part_desc {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    width: 454px;
+    max-width: 100%;
+    text-align: right;
+    /* padding-top: 25px; */
+    position: relative;
+    right: 0; }
+  .our_features img {
+    padding: 7px 12px;
+    margin: 0 auto; }
+  .our_features {
+    padding-top: 30px;
+    width: 100%;
+    display: block; }
+  .unblock_defnition h2, .secure_sector h2 {
+    font-size: 18px; }
+  .buy_vpn_today h1 {
+    padding: 50px; }
+  .tab-content {
+    margin: 0;
+    padding-top: 55px; }
+  .prize_plans img {
+    margin: 0; }
+  .prize_plans {
+    margin: 10px 0px; }
+  .footer_social_icons {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px; }
+  .img_sections_right {
+    margin: 0 0; }
+  .btn-next {
+    position: absolute;
+    right: -48px;
+    margin-top: -141px;
+    background: #edf4f9;
+    border: none !important;
+    outline: none !important; }
+  .autoplay .testimonials_clients p {
+    margin: 15px;
+    color: #828282;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px; }
+  .secure_defenitions {
+    margin-left: 0; }
+  .price_partners img {
+    margin: 16px 14px; }
+  .footer_section {
+    width: 100%;
+    padding: 50px 22px;
+    background: #2b2e33; }
+  .client-images img {
+    margin: 16px 15px;
+    max-width: 100%; }
+  .lime_vpn_uk {
+    width: 100%; }
+  .client-images_sec {
+    margin-top: 12px; }
+  .client-images_sec img {
+    margin: 7px 25px;
+    align-items: center; }
+  .apps_available img {
+    margin: 0 18px;
+    width: 39px;
+    max-width: 100%; }
+  .netflix_section {
+    display: block; }
+  .top-mini-nav {
+    display: none; } }
+
+@media only screen and (min-width: 414px) and (max-width: 768px) and (min-width: 768px) and (max-width: 1024px) {
+  .top-mini-nav {
+    display: none; }
+  .our_features img {
+    padding: 5px 18px;
+    margin: 0 auto; }
+  .client-images img {
+    margin: 16px 15px;
+    width: 150px;
+    max-width: 100%; }
+  .client-images_sec img {
+    margin: 10px 10px;
+    align-items: center; }
+  .client-sections {
+    padding-top: 0;
+    padding-bottom: 0; }
+  .client-images_sec {
+    margin-top: 0;
+    margin-bottom: 25px; }
+  .nav-pills {
+    left: 0;
+    margin: 0 auto; }
+  .nav-pills .nav-link {
+    padding: 16px 50px; }
+  .unblock_british {
+    padding: 0; }
+  .network_locations {
+    padding: 0; }
+  .lime_vpn_uk {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .vpn_uk_contents {
+    margin: 0 13px; }
+  .secure_vpn_section {
+    padding: 0; }
+  .lime_vpn_section_title {
+    padding-top: 68px; }
+  .img_sections_right {
+    /* margin: 0 25px; */
+    margin: 0; }
+  .prize_plans {
+    margin-left: -34px;
+    margin-top: 25px; }
+  .buy_vpn_today h1 {
+    font-size: 30px; }
+  .uk_section {
+    padding: 0;
+    background: #edf4f9; }
+  .lime_vpn_section {
+    padding: 15px; }
+  .lime_vpn_section_title, .uk_title, .secure_sector h2, .home_banner h1 {
+    font-size: 30px; }
+  .price_partners img {
+    margin: 16px 14px; }
+  .price_partners {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .lime_vpn_part_desc {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* width: 450px; */
+    max-width: 100%;
+    text-align: right;
+    padding-bottom: 25px;
+    position: relative;
+    right: 0; }
+  .price_partners {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .autoplay .testimonials_clients p {
+    margin: 15px;
+    color: #828282;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px; }
+  .apps_available img {
+    margin: 0 13px;
+    width: 39px;
+    max-width: 100%; }
+  .btn_start_trial {
+    font-size: 22px;
+    padding: 3px 16px; }
+  /*netflix page*/ }
+
+@media only screen and (min-width: 414px) and (max-width: 768px) and (min-width: 1024px) and (max-width: 1336px) {
+  .lime_vpn_uk {
+    width: 100%; }
+  .china_definition .btn-vpn {
+    text-align: center;
+    bottom: 40px; }
+  .lime_vpn_uk {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .vpn_uk_contents {
+    margin: auto; }
+  .nav-pills {
+    left: 0;
+    position: relative;
+    margin: 0 auto; }
+  .btn_start_trial {
+    padding: 13px 56px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .vpn_uk_contents {
+    margin: auto 8px;
+    line-height: 1; }
+  .more_servers {
+    line-height: 1;
+    display: flex;
+    margin: auto;
+    padding: -7px; }
+  .btn_start_trial {
+    padding: 21px 43px; } }
